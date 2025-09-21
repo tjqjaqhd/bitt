@@ -1,0 +1,38 @@
+# 빗썸 원화마켓 자동매매앱 .gitignore 예시
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# 환경설정 및 민감정보
+.env
+.env.*
+*.local.json
+
+# IDE/에디터
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS별
+.DS_Store
+Thumbs.db
+
+# 기타
+*.log
+*.bak
+*.tmp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+
+# 기타 프로젝트별 필요에 따라 추가
