@@ -4,12 +4,17 @@ __pycache__/
 *$py.class
 *.so
 
-# Environments
+# Environments - 모든 가상환경 디렉토리 제외
 .venv/
 venv/
+venv_*/
 ENV/
 env/
+env_*/
+.env/
 .ipynb_checkpoints/
+pyvenv.cfg
+pip-selfcheck.json
 
 # PyInstaller
 build/
