@@ -1,38 +1,68 @@
-# 빗썸 원화마켓 자동매매앱 .gitignore 예시
 # Python
 __pycache__/
 *.py[cod]
+*$py.class
 *.so
-*.egg
-*.egg-info/
-dist/
-build/
-.eggs/
 
-# 환경설정 및 민감정보
-.env
-.env.*
-*.local.json
-
-# IDE/에디터
-.vscode/
-.idea/
-*.sublime-workspace
-*.sublime-project
-
-# OS별
-.DS_Store
-Thumbs.db
-
-# 기타
-*.log
-*.bak
-*.tmp
-
-# Jupyter
+# Environments
+.venv/
+venv/
+ENV/
+env/
 .ipynb_checkpoints/
 
-# Node
-node_modules/
+# PyInstaller
+build/
+dist/
+*.spec
 
-# 기타 프로젝트별 필요에 따라 추가
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Virtual environment metadata
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE & editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.orig
+.DS_Store
+
+# Project specific
+.env
+.env.*
+!.env.example
+logs/
+!logs/.gitkeep
+data/
+!data/.gitkeep
+!src/data/
+!tests/data/
+
+# Byte-compiled / optimized / DLL files
+__pypackages__/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+
+# SQLite databases
+*.db
+*.db-journal
+*.sqlite3
+*.sqlite3-journal
+
