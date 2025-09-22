@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>빗썸 자동매매 대시보드</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .navbar {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .card {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .card-header {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            border-radius: 15px 15px 0 0 !important;
+        }
+        .metric-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .metric-value {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        .metric-label {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+        .positive { color: #28a745; }
+        .negative { color: #dc3545; }
+        .table-dark { background-color: #343a40; }
+        .status-active { color: #28a745; }
+        .status-pending { color: #ffc107; }
+    </style>
+</head>
+<body>
+    <!-- 네비게이션 바 -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-chart-line me-2"></i>
+                빗썸 자동매매 대시보드
+            </a>
+            <div class="navbar-nav ms-auto">
+                <span class="navbar-text" id="currentTime"></span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <!-- 주요 지표 카드들 -->
+        <div class="row mb-4">
+            <div class="col-md-3">
+                <div class="card metric-card">
+                    <div class="card-body">
+                        <div class="metric-value" id="totalBalance">₩0</div>
+                        <div class="metric-label">총 자산</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card metric-card">
+                    <div class="card-body">
+                        <div class="metric-value" id="dailyPnl">₩0</div>
+                        <div class="metric-label">일일 손익</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card metric-card">
+                    <div class="card-body">
+                        <div class="metric-value" id="successRate">0%</div>
+                        <div class="metric-label">승률</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card metric-card">
+                    <div class="card-body">
+                        <div class="metric-value" id="activePositions">0</div>
+                        <div class="metric-label">보유 포지션</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- 포지션 정보 -->
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="mb-0">
+                            <i class="fas fa-wallet me-2"></i>
+                            현재 포지션
+                        </h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>종목</th>
+                                        <th>수량</th>
+                                        <th>현재가</th>
+                                        <th>손익</th>
+                                        <th>수익률</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="positionsTable">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 최근 거래 -->
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="mb-0">
+                            <i class="fas fa-exchange-alt me-2"></i>
+                            최근 거래
+                        </h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>시간</th>
+                                        <th>종목</th>
+                                        <th>유형</th>
+                                        <th>수량</th>
+                                        <th>가격</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tradesTable">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 성과 차트 -->
+        <div class="row mt-4">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="mb-0">
+                            <i class="fas fa-chart-area me-2"></i>
+                            자산 곡선
+                        </h5>
+                    </div>
+                    <div class="card-body">
+                        <canvas id="equityChart" width="400" height="200"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 성과 지표 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="mb-0">
+                            <i class="fas fa-trophy me-2"></i>
+                            성과 지표
+                        </h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-12 mb-3">
+                                <div class="d-flex justify-content-between">
+                                    <span>총 수익률:</span>
+                                    <strong id="totalReturn" class="positive">0%</strong>
+                                </div>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <div class="d-flex justify-content-between">
+                                    <span>연환산 수익률:</span>
+                                    <strong id="annualizedReturn" class="positive">0%</strong>
+                                </div>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <div class="d-flex justify-content-between">
+                                    <span>최대 낙폭:</span>
+                                    <strong id="maxDrawdown" class="negative">0%</strong>
+                                </div>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <div class="d-flex justify-content-between">
+                                    <span>샤프 비율:</span>
+                                    <strong id="sharpeRatio">0</strong>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="d-flex justify-content-between">
+                                    <span>총 거래 수:</span>
+                                    <strong id="totalTrades">0</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const API_BASE = 'http://localhost:8000/api';
+
+        // 시간 업데이트
+        function updateTime() {
+            document.getElementById('currentTime').textContent = new Date().toLocaleString('ko-KR');
+        }
+        setInterval(updateTime, 1000);
+        updateTime();
+
+        // 숫자 포맷팅
+        function formatNumber(num) {
+            return new Intl.NumberFormat('ko-KR').format(num);
+        }
+
+        function formatCurrency(amount) {
+            return '₩' + formatNumber(Math.round(amount));
+        }
+
+        // 대시보드 요약 정보 로드
+        async function loadDashboardSummary() {
+            try {
+                const response = await fetch(`${API_BASE}/dashboard/summary`);
+                const data = await response.json();
+
+                document.getElementById('totalBalance').textContent = formatCurrency(data.total_balance_krw);
+                document.getElementById('dailyPnl').textContent = formatCurrency(data.daily_pnl);
+                document.getElementById('successRate').textContent = data.success_rate.toFixed(1) + '%';
+                document.getElementById('activePositions').textContent = data.active_positions;
+
+                // 일일 손익 색상 변경
+                const dailyPnlElement = document.getElementById('dailyPnl');
+                dailyPnlElement.classList.remove('positive', 'negative');
+                dailyPnlElement.classList.add(data.daily_pnl >= 0 ? 'positive' : 'negative');
+            } catch (error) {
+                console.error('대시보드 요약 정보 로드 실패:', error);
+            }
+        }
+
+        // 포지션 정보 로드
+        async function loadPositions() {
+            try {
+                const response = await fetch(`${API_BASE}/dashboard/positions`);
+                const positions = await response.json();
+
+                const tbody = document.getElementById('positionsTable');
+                tbody.innerHTML = '';
+
+                positions.forEach(position => {
+                    const row = tbody.insertRow();
+                    row.innerHTML = `
+                        <td><strong>${position.symbol}</strong></td>
+                        <td>${position.quantity}</td>
+                        <td>${formatCurrency(position.current_price)}</td>
+                        <td class="${position.unrealized_pnl >= 0 ? 'positive' : 'negative'}">
+                            ${formatCurrency(position.unrealized_pnl)}
+                        </td>
+                        <td class="${position.unrealized_pnl_percent >= 0 ? 'positive' : 'negative'}">
+                            ${position.unrealized_pnl_percent.toFixed(2)}%
+                        </td>
+                    `;
+                });
+            } catch (error) {
+                console.error('포지션 정보 로드 실패:', error);
+            }
+        }
+
+        // 최근 거래 로드
+        async function loadRecentTrades() {
+            try {
+                const response = await fetch(`${API_BASE}/dashboard/recent-trades`);
+                const data = await response.json();
+
+                const tbody = document.getElementById('tradesTable');
+                tbody.innerHTML = '';
+
+                data.trades.forEach(trade => {
+                    const row = tbody.insertRow();
+                    const time = new Date(trade.timestamp).toLocaleTimeString('ko-KR');
+
+                    row.innerHTML = `
+                        <td>${time}</td>
+                        <td><strong>${trade.symbol}</strong></td>
+                        <td>
+                            <span class="badge ${trade.side === 'buy' ? 'bg-success' : 'bg-danger'}">
+                                ${trade.side.toUpperCase()}
+                            </span>
+                        </td>
+                        <td>${trade.quantity}</td>
+                        <td>${formatCurrency(trade.price)}</td>
+                    `;
+                });
+            } catch (error) {
+                console.error('최근 거래 로드 실패:', error);
+            }
+        }
+
+        // 성과 지표 로드
+        async function loadPerformanceMetrics() {
+            try {
+                const response = await fetch(`${API_BASE}/analysis/performance`);
+                const metrics = await response.json();
+
+                document.getElementById('totalReturn').textContent = metrics.total_return.toFixed(2) + '%';
+                document.getElementById('annualizedReturn').textContent = metrics.annualized_return.toFixed(2) + '%';
+                document.getElementById('maxDrawdown').textContent = '-' + metrics.max_drawdown.toFixed(2) + '%';
+                document.getElementById('sharpeRatio').textContent = metrics.sharpe_ratio.toFixed(2);
+                document.getElementById('totalTrades').textContent = formatNumber(metrics.total_trades);
+            } catch (error) {
+                console.error('성과 지표 로드 실패:', error);
+            }
+        }
+
+        // 자산 곡선 차트
+        async function loadEquityCurve() {
+            try {
+                const response = await fetch(`${API_BASE}/analysis/equity-curve`);
+                const data = await response.json();
+
+                const ctx = document.getElementById('equityChart').getContext('2d');
+                new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: data.equity_curve.map(point => {
+                            const date = new Date(point.date);
+                            return `${date.getMonth() + 1}/${date.getDate()}`;
+                        }),
+                        datasets: [{
+                            label: '자산',
+                            data: data.equity_curve.map(point => point.equity),
+                            borderColor: 'rgb(75, 192, 192)',
+                            backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                            tension: 0.1,
+                            fill: true
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        plugins: {
+                            title: {
+                                display: true,
+                                text: '30일 자산 변화'
+                            }
+                        },
+                        scales: {
+                            y: {
+                                beginAtZero: false,
+                                ticks: {
+                                    callback: function(value) {
+                                        return formatCurrency(value);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                });
+            } catch (error) {
+                console.error('자산 곡선 로드 실패:', error);
+            }
+        }
+
+        // 초기 로드 및 주기적 업데이트
+        async function initDashboard() {
+            await Promise.all([
+                loadDashboardSummary(),
+                loadPositions(),
+                loadRecentTrades(),
+                loadPerformanceMetrics(),
+                loadEquityCurve()
+            ]);
+        }
+
+        // 페이지 로드 시 초기화
+        document.addEventListener('DOMContentLoaded', initDashboard);
+
+        // 30초마다 데이터 업데이트
+        setInterval(() => {
+            loadDashboardSummary();
+            loadPositions();
+            loadRecentTrades();
+        }, 30000);
+    </script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+.ipynb_checkpoints/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Virtual environment metadata
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE & editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.orig
+.DS_Store
+
+# Project specific
+.env
+.env.*
+!.env.example
+logs/
+!logs/.gitkeep
+data/
+!data/.gitkeep
+!src/data/
+!tests/data/
+
+# Byte-compiled / optimized / DLL files
+__pypackages__/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+
+# SQLite databases
+*.db
+*.db-journal
+*.sqlite3
+*.sqlite3-journal
+

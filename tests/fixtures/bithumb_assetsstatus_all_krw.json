@@ -1,0 +1,2465 @@
+{
+  "status": "0000",
+  "data": {
+    "P": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "BM": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "BTC": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ETH": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "DASH": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "LTC": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "ETC": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "XRP": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "BCH": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "XMR": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "ZEC": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "QTUM": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "BTG": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "A": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ICX": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "VEN": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "TRX": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ELF": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "MITH": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "MCO": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "OMG": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "KNC": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "GLM": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ZIL": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ETHOS": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "PAY": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "WAXP": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "POWR": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "LRC": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "GTO": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "PCHT": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "EOSDAC": {
+      "withdrawal_status": 1,
+      "deposit_status": 0
+    },
+    "STEEM": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "STRAX_OLD": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "AE": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "ZRX": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "REP": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "XEM": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "SNT": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ADA": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "PPT": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "CTXC": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "BAT": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "WTC": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "CMT": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "THETA": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "POLY": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "LOOM": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "CVC": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "WAVES": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ITC": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "TRUE": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "ABT": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "LINK": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "MEETONE": {
+      "withdrawal_status": 1,
+      "deposit_status": 0
+    },
+    "HORUS": {
+      "withdrawal_status": 1,
+      "deposit_status": 0
+    },
+    "ADD": {
+      "withdrawal_status": 1,
+      "deposit_status": 0
+    },
+    "SALT": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "PST": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "RNT": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "ENJ": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "PLX": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "VET": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "MTL": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "RDN": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "INS": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "CHL": {
+      "withdrawal_status": 1,
+      "deposit_status": 0
+    },
+    "BLACK": {
+      "withdrawal_status": 1,
+      "deposit_status": 0
+    },
+    "ATD": {
+      "withdrawal_status": 1,
+      "deposit_status": 0
+    },
+    "IOST": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "OCN": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "TMTG": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "QKC_OLD": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "BZNT": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "ARN": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "ATOLO": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "NPXS": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "LBA": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "WET": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "AMO": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "BSV": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "KEOS": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "ROM": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "BXA": {
+      "withdrawal_status": 1,
+      "deposit_status": 0
+    },
+    "APIS": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "DAC": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "DACC": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "AUTO": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "ORBS": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "TFUEL": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "VALOR": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "CON": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "ANKR": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "MIX": {
+      "withdrawal_status": 1,
+      "deposit_status": 0
+    },
+    "LAMB": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "CRO": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "FX": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "CHR": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "MBL": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "MXC": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "FAB": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "OGO": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "WIN": {
+      "withdrawal_status": 1,
+      "deposit_status": 0
+    },
+    "DVP": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "FCT2": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "FNB": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "FZZ": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "TRV": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "PCM": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "DAD": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "AOA": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "XSR": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "WOM": {
+      "withdrawal_status": 1,
+      "deposit_status": 0
+    },
+    "SOC": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "EM": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "QBZ": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "BOA": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "WPX": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "MEV": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "BNP": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "SXP": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "COS": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "APIX": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "EL": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "BASIC": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "HIVE": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "XPR": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "VRA": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "FIT": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "EGG": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "BORA": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ARPA": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "CTC": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "APM": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "CKB": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "AERGO": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ANW": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "CENNZ": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "EVZ": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "CYCLUB": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "SRM": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "QTCON": {
+      "withdrawal_status": 1,
+      "deposit_status": 0
+    },
+    "UNI": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "YFI": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "UMA": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "AAVE": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "COMP": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "REN": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "BAL": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "RSR": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "NMR": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "RLC": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "UOS": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "SAND": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "CVT": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "AWE": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "GOM2": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "RINGX": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "BEL": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "DVC": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "OBSR": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ORC": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "POLA": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "AWO": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "ADP": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "DVI": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "DRM": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "IBP": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "GHX": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "MIR": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "CBK": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ONX": {
+      "withdrawal_status": 1,
+      "deposit_status": 0
+    },
+    "MVC": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "BLY": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "WOZX": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "ANV": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "GRT": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "MM": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "BIOT": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "XNO": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "SNX": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "SOFI": {
+      "withdrawal_status": 1,
+      "deposit_status": 0
+    },
+    "GRACY": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "NU": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "OXT": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "LINA": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "ASTA": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "MAPO": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "AQT": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "PLA": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "WIKEN": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "CTSI": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "MANA": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "LPT": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "MKR": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "SRT": {
+      "withdrawal_status": 1,
+      "deposit_status": 0
+    },
+    "SUSHI": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "NSBT": {
+      "withdrawal_status": 1,
+      "deposit_status": 0
+    },
+    "DON": {
+      "withdrawal_status": 1,
+      "deposit_status": 0
+    },
+    "ASM": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "PUNDIX": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "CELR": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "CWD": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "ARW": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "BETH": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "BCDC": {
+      "withdrawal_status": 1,
+      "deposit_status": 0
+    },
+    "SLF": {
+      "withdrawal_status": 1,
+      "deposit_status": 0
+    },
+    "MSB": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "RLY": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "OCEAN": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "BFC": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ALICE": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "OGN": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "COTI": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "CAKE": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "BNT": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "XVS": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "SWAP": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "CHZ": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "AXS": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "DAO": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "SIX": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "USDS": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "SHIB": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "POL": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "WOO": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ACH": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "BAKE": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "VELO": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "ANC": {
+      "withdrawal_status": 1,
+      "deposit_status": 0
+    },
+    "HC": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "BCD": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "XVG": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "XLM": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "PIVX": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "ETZ": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "GXC": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "BHP": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "BTTOLD": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "HYC": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "VSYS": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "IPX": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "WICC": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "ONT": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "LUNC": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "NEWS2": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "AION": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "META": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "KAIA": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "COSM": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "ONG": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ALGO": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "JST": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "XTZ": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "MLK": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "WEMIXC": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "DOT": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "SUN_OLD": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "ATOM": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "SSG": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "BCHA": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "TEMCO": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "KSP": {
+      "withdrawal_status": 1,
+      "deposit_status": 0
+    },
+    "LZM": {
+      "withdrawal_status": 1,
+      "deposit_status": 0
+    },
+    "HIBS": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "CPAY": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "QI": {
+      "withdrawal_status": 1,
+      "deposit_status": 0
+    },
+    "BURGER": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "DOGE": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "KSM": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "CTK": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "XYM": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "BNB": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "NFT": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "SUN": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "XEC": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "AGIX": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "PCI_OLD": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "SOL": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "FNSA": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "EGLD": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "GO": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "MASK": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "DFA": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "C98": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "MED": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "SGB": {
+      "withdrawal_status": 1,
+      "deposit_status": 0
+    },
+    "1INCH": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "CRV": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "BOBA": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "RPG": {
+      "withdrawal_status": 1,
+      "deposit_status": 0
+    },
+    "DYDX": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "MINA": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "FLOW": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "JOE": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "GALA": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ENS": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "PURSE": {
+      "withdrawal_status": 1,
+      "deposit_status": 0
+    },
+    "BTT": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "EFI": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "JASMY": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "TITAN": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "REQ": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "CSPR": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "SOLO": {
+      "withdrawal_status": 1,
+      "deposit_status": 0
+    },
+    "AVAX": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "TDROP": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "HBAR": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "FANC": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "SPRT": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "MAY": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "WITCH": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "REI": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "T": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "AQUA": {
+      "withdrawal_status": 1,
+      "deposit_status": 0
+    },
+    "MBX": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "GMT": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "TAVA": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "D": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "APE": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "WNCG": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "AL": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "XCN": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "GXA": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "LUNA2": {
+      "withdrawal_status": 1,
+      "deposit_status": 0
+    },
+    "TALK": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "OGV": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "AZIT": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ETHW": {
+      "withdrawal_status": 1,
+      "deposit_status": 0
+    },
+    "DIS": {
+      "withdrawal_status": 1,
+      "deposit_status": 0
+    },
+    "FLR": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ICZ": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "SFP": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "FITFI": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "STAT": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "CRTS": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "VIX": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "LBL": {
+      "withdrawal_status": 1,
+      "deposit_status": 0
+    },
+    "FLZ": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "BERRY": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "LM": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "GRND": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "APT": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "BLUR": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "WEMIX": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "NEWS": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "DICE": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "OAS": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "HOOK": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "XENT": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "LWA": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "OP": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ROA": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ORB": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "EVER": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "GMX": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "STX": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "XPLA": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "REAP": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "AHT": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ARB": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "INJ": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "HFT": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "RPL": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "GPT": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "IMX": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "CFX": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ACS": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "FXS": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "CELO": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "LDO": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "S": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "FET": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "SUI": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "KWENTA": {
+      "withdrawal_status": 1,
+      "deposit_status": 0
+    },
+    "LAZIO": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "NCT": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "PORTO": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "XCORE": {
+      "withdrawal_status": 1,
+      "deposit_status": 0
+    },
+    "FLOKI": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ALEX": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "ID": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "RENDER": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "STG": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "SANTOS": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "OSMO": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "FIL": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "GAL": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "ILV": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "MAV": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "HVH": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "RSS3": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "AUDIO": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "AGI": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "RDNT": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "ASTR": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "WLD": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "FLUX": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "AGLD": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "AR": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "RVN": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "LEVER": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "EDU": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "SEI": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "WAXL": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "MOC": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "PEPE": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "CYBER": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ARKM": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "PYR": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "IOTX": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "HIGH": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "PENDLE": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "BICO": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "STORJ": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "API3": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ZTX": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "MNT": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "GTC": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "METIS": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "TIA": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ZBC": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "ICP": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "SPURS": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "NEO": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "GAS": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "HIFI": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "BIGTIME": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ZETA": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "GRS": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ARK": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "YGG": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "HUNT": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "KAVA": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "STMX": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "MAGIC": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "AUCTION": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "USDT": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "USDC": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "RAD": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "LSK": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "TT": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ACE": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "SKL": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "IQ": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "PYTH": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "MANTA": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "AKT": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "BEAM": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "JTO": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "JUP": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "STRK": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "SC": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "PDA": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "BONK": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "TOKAMAK": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "AIOZ": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ZK": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ONDO": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ALT": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "TAO": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "NEAR": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "RON": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "FIDA": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "STRAX": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "XAI": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "W": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ZBCN": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "POLYX": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "CORE": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "BB": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "POKT": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "REZ": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "OMNI": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ENA": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "MOCA": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ETHFI": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "MEW": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ZRO": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "IO": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "KLY": {
+      "withdrawal_status": 1,
+      "deposit_status": 0
+    },
+    "BLAST": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "TAIKO": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "BRETT": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ATH": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "PCI": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "AVAIL": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "TON": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "G": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "LISTA": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "PEAQ": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "EIGEN": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ORDER": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "MERL": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "SCR": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "SWELL": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "UXLINK": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "PEPPER": {
+      "withdrawal_status": 1,
+      "deposit_status": 0
+    },
+    "SKY": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "PONKE": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "MVL": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "CARV": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "PUFFER": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "SUNDOG": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "TURBO": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "RAY": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "SAFE": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "VIRTUAL": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "DRIFT": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "MOVE": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "F": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "DEEP": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "MORPHO": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "NEIRO": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "MOODENG": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "DBR": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "GOAT": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "NIL": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ME": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "INIT": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ZRC": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "IOTA": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "MONKY": {
+      "withdrawal_status": 1,
+      "deposit_status": 0
+    },
+    "PENGU": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ACX": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "AERO": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "THE": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "AMP": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "VANA": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "XYO": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "A8": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "SONIC": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "WIF": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "IP": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "DKA": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "SOLV": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "BLUE": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "QKC": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "HP": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "GAME2": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ERA": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "STRIKE": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "ARDR": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "BOUNTY": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "SHELL": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "BERA": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "BIO": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "PLUME": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "OBT": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "TRUMP": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "KERNEL": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "COOKIE": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "GNO": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "VTHO": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ANIME": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "RED": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "LAYER": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "WCT": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "FLOCK": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "KAITO": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "BMT": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "C": {
+      "withdrawal_status": 0,
+      "deposit_status": 0
+    },
+    "SOON": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "PAXG": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "AVL": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "B3": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "PUNDIAI": {
+      "withdrawal_status": 1,
+      "deposit_status": 0
+    },
+    "ELX": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "COW": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "WAL": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "BABY": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ES": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "XTER": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "NXPC": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "GRASS": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ORCA": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "KMNO": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "PUMPBTC": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "EPT": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "HAEDAL": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "AI16Z": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "PARTI": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "SXT": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "PROMPT": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "SIGN": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "SAHARA": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "SNS": {
+      "withdrawal_status": 1,
+      "deposit_status": 0
+    },
+    "H": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "HOME": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "OM": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "LA": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "SOPH": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "HYPER": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "PROVE": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "FORT": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "TOSHI": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "HUMA": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "SPK": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "USD1": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "SYRUP": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "NEWT": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "RESOLV": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "TREE": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "EUL": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "AVNT": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "OPEN": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "PUMP": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "SD": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "BARD": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "TOWNS": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "CAMP": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "WLFI": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "LINEA": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "HOLO": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    },
+    "ZKC": {
+      "withdrawal_status": 1,
+      "deposit_status": 1
+    }
+  }
+}
