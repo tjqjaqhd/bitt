@@ -71,3 +71,26 @@ __pypackages__/
 *.sqlite3
 *.sqlite3-journal
 
+# 로그 파일 및 실행 결과
+*.log
+trading*.log
+debug*.log
+
+# 스크린샷 및 이미지 (민감한 정보 포함 가능)
+*.png
+*.jpg
+*.jpeg
+*.gif
+스크린샷*
+
+# API 키 및 보안 정보 (절대 커밋하지 않음)
+*api_key*
+*secret*
+*password*
+
+# 임시 파일
+*.tmp
+*.temp
+temp/
+tmp/
+
