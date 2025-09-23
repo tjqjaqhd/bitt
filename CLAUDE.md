@@ -193,3 +193,5 @@ flake8 .
 - 백테스트 및 성과 분석 시스템 완성
 - FastAPI 백엔드 + 웹 대시보드 완전 구현
 - GitHub 저장소 연동 및 문서화 완료
+- C:\Users\SEOBEOMBONG\gogo\1. 프로젝트 구조 및 자동매매 로직 흐름.md
+- C:\Users\SEOBEOMBONG\gogo\CLAUDE.md

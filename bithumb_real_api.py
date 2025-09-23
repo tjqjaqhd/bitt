@@ -12,6 +12,7 @@ import urllib.parse
 import uuid
 from datetime import datetime, timedelta
 from typing import Dict, List, Optional
+from pathlib import Path
 
 import jwt
 import requests
@@ -20,9 +21,27 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
+# .env 파일 로드
+def load_dotenv(env_file_path: Path):
+    """간단한 .env 파일 로더"""
+    if env_file_path.exists():
+        with open(env_file_path, 'r', encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith('#') and '=' in line:
+                    key, value = line.split('=', 1)
+                    os.environ[key.strip()] = value.strip()
+
+env_file = Path(__file__).parent / '.env'
+load_dotenv(env_file)
+
 # 환경변수에서 API 키 로드
-BITHUMB_API_KEY = "6796b5622069481022701ac81477f57e947f0552b6bc64"
-BITHUMB_SECRET_KEY = "YzIwZDQzZDE2ZWQ2NzVlNmI3NjUyNTZmNGQxMDUxMDAxY2NhMTk3Y2YxN2I5MTdhMDY1N2IxYmY2MWM4NQ=="
+BITHUMB_API_KEY = os.getenv('BITHUMB_API_KEY')
+BITHUMB_SECRET_KEY = os.getenv('BITHUMB_SECRET_KEY')
+
+if not BITHUMB_API_KEY or not BITHUMB_SECRET_KEY:
+    print("⚠️  환경변수에 BITHUMB_API_KEY, BITHUMB_SECRET_KEY가 설정되지 않았습니다.")
+    print("⚠️  .env 파일을 확인하세요.")
 
 # FastAPI 앱 생성
 app = FastAPI(
@@ -105,7 +124,7 @@ class SimpleBithumbAPI:
             return None
 
     def get_accounts(self) -> Optional[Dict]:
-        """전체 계좌 조회 (Private API) - API v1 JWT 방식."""
+        """전체 계좌 조회 (Private API) - 빗썸 API 2.0 JWT 방식."""
         try:
             endpoint = "/v1/accounts"
 
@@ -120,14 +139,15 @@ class SimpleBithumbAPI:
             url = f"{self.base_url}{endpoint}"
             response = requests.get(url, headers=headers, timeout=10)
 
-            print(f"🔍 Accounts API 요청: {url}")
-            print(f"📋 Headers: {headers}")
-            print(f"📊 Response: {response.status_code} - {response.text[:500]}")
+            print(f"🔍 Accounts API 2.0 요청: {url}")
+            print(f"📊 Response: {response.status_code}")
 
             if response.status_code == 200:
-                return response.json()
+                result = response.json()
+                print(f"✅ 계좌 조회 성공: {len(result)}개 항목")
+                return result
             else:
-                print(f"❌ API 오류: {response.status_code} - {response.text}")
+                print(f"❌ HTTP 오류: {response.status_code} - {response.text}")
                 return {"error": f"HTTP {response.status_code}", "message": response.text}
 
         except Exception as e:
@@ -650,6 +670,6 @@ if __name__ == "__main__":
     uvicorn.run(
         app,
         host="0.0.0.0",
-        port=8001,
+        port=8002,
         reload=False
     )

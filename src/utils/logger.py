@@ -73,4 +73,10 @@ def get_logger(name: str) -> Logger:
     return logging.getLogger(name)
 
 
-__all__ = ["configure_logging", "get_logger"]
+def setup_logging() -> Logger:
+    """로깅을 설정하고 기본 로거를 반환한다."""
+    configure_logging()
+    return logging.getLogger(__name__)
+
+
+__all__ = ["configure_logging", "get_logger", "setup_logging"]

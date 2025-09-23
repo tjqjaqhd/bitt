@@ -1,5 +1,6 @@
 """빗썸 REST API 전용 클라이언트."""
 
+import base64
 import hashlib
 import hmac
 import json
@@ -70,7 +71,7 @@ class BithumbRestClient:
 
         self.last_request_time = time.time()
 
-    def _generate_signature(self, endpoint: str, params: Dict[str, Any]) -> str:
+    def _generate_signature(self, endpoint: str, params: Dict[str, Any]) -> tuple[str, str]:
         """
         API 요청 서명 생성.
 
@@ -79,7 +80,7 @@ class BithumbRestClient:
             params: 요청 파라미터
 
         Returns:
-            서명된 해시 값
+            (signature, nonce) 튜플
         """
         # nonce 추가
         params['endpoint'] = endpoint
@@ -90,13 +91,16 @@ class BithumbRestClient:
         query_string = urlencode(sorted(params.items()))
 
         # HMAC-SHA512 서명 생성
-        signature = hmac.new(
+        signature_bytes = hmac.new(
             self.secret_key.encode(),
             query_string.encode(),
             hashlib.sha512
-        ).hexdigest()
+        ).digest()
 
-        return signature
+        # Base64 인코딩
+        signature = base64.b64encode(signature_bytes).decode()
+
+        return signature, nonce
 
     def _make_request(
         self,
@@ -138,9 +142,10 @@ class BithumbRestClient:
             if not self.api_key or not self.secret_key:
                 raise ExchangeError("API 키와 시크릿 키가 필요합니다.")
 
-            signature = self._generate_signature(endpoint, params.copy())
+            signature, nonce = self._generate_signature(endpoint, params.copy())
             headers['Api-Key'] = self.api_key
             headers['Api-Sign'] = signature
+            headers['Api-Nonce'] = nonce
 
         try:
             if method.upper() == 'GET':
@@ -279,15 +284,22 @@ class BithumbRestClient:
             if order_type == 'limit' and price is None:
                 raise ValueError("지정가 주문에는 가격이 필요합니다.")
 
-            endpoint = f"/trade/{side}"
+            endpoint = "/trade/place"
+            # 'buy' -> 'bid', 'sell' -> 'ask' 변환
+            trade_type = 'bid' if side == 'buy' else 'ask'
+
             params = {
                 "order_currency": symbol,
                 "payment_currency": "KRW",
-                "units": str(quantity)
+                "units": str(quantity),
+                "type": trade_type
             }
 
             if order_type == 'limit' and price:
                 params["price"] = str(price)
+            else:
+                # 시장가 주문
+                params["ordertype"] = "market"
 
             response = self._make_request("POST", endpoint, params, require_auth=True)
             return response.get('data')

@@ -5,7 +5,8 @@
       "Bash(claude mcp add:*)",
       "Bash(claude mcp:*)",
       "Bash(echo $0)",
-      "Read(//proc/**)"
+      "Read(//proc/**)",
+      "Bash(git add:*)"
     ],
     "deny": [],
     "ask": []
